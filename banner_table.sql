@@ -1,0 +1,9 @@
+INSERT INTO `banner_table` VALUES (14, '东西', ' 这个东西可以的这个东西可以的这个东西可以的这个东西可以的这个东西可以的', 'www.hao123.com');
+INSERT INTO `banner_table` VALUES (17, '大树', ' 大树牛逼牛逼', 'www.hao123.com');
+INSERT INTO `banner_table` VALUES (19, '恶心009', '真他妈恶心，都无话说了，太他妈操蛋了 ', 'www.hao123.com');
+INSERT INTO `banner_table` VALUES (20, '日增叼毛', ' 叼毛', '333');
+INSERT INTO `banner_table` VALUES (21, '33333', ' 33333333333333', '333333');
+INSERT INTO `banner_table` VALUES (22, '89898', ' 090998989', '89989');
+INSERT INTO `banner_table` VALUES (23, '黄金时代回家的时候', ' 都是废话单身快乐交话费克里斯丁', '444');
+INSERT INTO `banner_table` VALUES (24, '6666', ' 66666666666666666666666666', '66666666666666');
+INSERT INTO `banner_table` VALUES (25, '999', ' 99', '55');

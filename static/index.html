@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>web首页</title>
+    <div style="font-size: 0.3rem; color: red;">夜幕小草测试</div>
+    <div class="box">
+        <a href="" style="font-size: 0.28rem; color: pink;">ni</a>
+    </div>
+</head>
+<body>
+
+<script src="rem.js"></script>
+<script src="api.js"></script>
+<script src="jq.js"></script>
+<script>
+
+
+    $.ajax({
+        url: '/get_banners',
+        type: "GET",
+        data: {},
+        success: function (res) {
+            console.log('res---正确')
+            console.log(res)
+//            var resultJson = JSON.parse(res)
+//            var codeStr = '<a href="" style="font-size: 0.28rem; color: pink;">''</a>'
+            for(var i = 0; i< res.length; i++){
+                var bb = '<a href="#" style="font-size: 0.28rem; color: pink; display: block;">'+ res[i].title +'</a>'
+                $('.box').append(bb)
+            }
+        },
+        error: function (err) {
+            // var err = JSON.parse(err)
+            console.log('err---错误')
+            console.log(err)
+//                                errorFn && errorFn()
+        }
+    })
+
+</script>
+
+</body>
+</html>
